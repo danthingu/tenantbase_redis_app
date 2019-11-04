@@ -1,8 +1,6 @@
 # Django Redis Memcached For Tenant Base
-For this exercise you will be creating a key-value storage server that speaks a small subset of
-the memcached protocol and persists data in SQLite. It should also have an HTTP server
-running out of the same process for monitoring. The monitoring page should include some basic
-Javascript interactivity.
+For this exercise I created a "To do List" application using key-value storage server with Redis that speaks a small subset of
+the memcached protocol and persists data in SQLite. I also created a React Front End page to monitor the protocol of get/post/put/delete.
 
 ## Redis workflow
 ```json
